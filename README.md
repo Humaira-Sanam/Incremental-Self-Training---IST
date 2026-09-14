@@ -1,6 +1,6 @@
 # RF Self-Training Point Cloud Classifier (z_rel)
 
-A self-training Random Forest pipeline for classifying 3D LiDAR / point cloud data into two classes (e.g. ground vs. vegetation). The pipeline uses **relative height features** (`z_rel = local_mean_z − local_ground_z`) and iteratively expands a small seed training set via confident, consensus-filtered predictions.
+A self-training Random Forest pipeline for classifying 3D LiDAR / point cloud data into two classes (e.g. wood vs. leaf). The pipeline uses **relative height features** (`z_rel = local_mean_z − local_ground_z`) and iteratively expands a small seed training set via confident, consensus-filtered predictions.
 
 ---
 
